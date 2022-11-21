@@ -1,0 +1,35 @@
+.articleClass{
+  margin:20px;
+  width: 20vw;
+  border: 1px black solid;
+  padding:10px;
+  box-shadow: 0 0 0.5em black, 0 0 5em black, 0 0 0.5em black;
+}
+
+
+.fullName, .name, .description, .id{padding: 5px;}
+
+.fullName{text-transform: uppercase;}
+
+.name{font-weight: bold;
+  text-transform: uppercase;}
+
+.linkRepos{
+  font-weight: bold;
+}
+
+@media (max-width:800px) { 
+  
+  .articleClass{
+    width: 80vw;
+    padding:20px;}
+
+    .fullName{text-overflow: ellipsis;
+      word-wrap: break-word;}
+   
+
+} 
+
+
+
+
